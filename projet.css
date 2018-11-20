@@ -1,0 +1,190 @@
+h1, h4
+{
+	color: #DCAD10;
+	font-style: italic;
+	font-family: Times New Roman, serif;
+	font-size: 30px;
+}
+.background 
+{
+	background-color: #D7DAD6  
+}
+
+.im1
+{
+	background-image: url("im1.jpeg");
+	background-position: center;
+	width: 75%;
+	height:300px;
+	background-repeat: no-repeat;
+	
+	background-size: 100%;
+}
+
+#menu-demo2, #menu-demo2 ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menu-demo2 li{
+display:inline-block;
+position:relative;
+border-radius:0px 0px 0 0;
+}
+#menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-demo2 ul li:hover{
+border-radius:0;
+}
+#menu-demo2 ul li:last-child{
+border-radius:0 0 12px 12px;
+}
+#menu-demo2 ul{
+position:absolute;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+transition: .8s all .3s;
+}
+#menu-demo2 li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+#menu-demo2 li:first-child{
+background-color: black;
+}
+#menu-demo2 li:nth-child(2){
+background-color: black;
+}
+#menu-demo2 li:nth-child(3){
+background-color: black;
+}
+#menu-demo2 li:last-child{
+background-color: black;
+}
+/* background des liens sous menus */
+#menu-demo2 li:first-child li{
+background:black;
+}
+#menu-demo2 li:nth-child(2) li{
+background:black;
+}
+#menu-demo2 li:nth-child(3) li{
+background:black;
+}
+#menu-demo2 li:last-child li{
+background:black;
+}
+/* background des liens menus et sous menus au survol */
+#menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+background:white;
+}
+#menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+background:white;
+}
+#menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+background:white;
+}
+#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+background:white;
+}
+/* les a href */
+#menu-demo2 a{
+text-decoration:all;
+display:inline-block;
+padding:8px 30px;
+color:#fff;
+font-family:snell-roundhand;
+}
+#menu-demo2 ul a{
+padding:10px 5px;
+}
+#menu-demo2 li:hover li a{
+color:#D0D3D4;
+text-transform:inherit;
+}
+#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+color:#979A9A;
+}
+
+.b
+{
+	margin-left: 90%;
+	margin-right: 0%;
+	width : 10%;
+	font-size: 100%;
+}
+.retour
+{
+	text-align: center;
+	font-size: 100%;
+	background-color: white;
+	
+}
+
+.info
+{
+	background-color: white;
+}
+
+/*interieur des tableaux*/
+
+.interieur
+{
+	border: 1px solid;
+	border-color: red;
+}
+
+/*Bagues*/
+
+.cbagues
+{
+	width: 75%;
+	background-color: white;
+	
+}
+
+/*Colliers*/
+
+.ccollier
+{
+	width: 75%;
+	background-color: white;
+	
+}
+
+/*Pendentifs*/
+
+.cpendantif
+{
+	width: 75%;
+	background-color: white;
+}
+
+/*Bracelets*/
+
+.cbracelet
+{
+	width: 75%;
+	background-color: white;
+}
+
+/*Boucles d'oreilles*/
+
+.cbouclesoreilles
+{
+	width: 75%;
+	background-color: white;
+}
+
+/*informations de la boutique*/
+
+.tabinfo
+{
+	width: 75%;
+	background-color: white;
+}
